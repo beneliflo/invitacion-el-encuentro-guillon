@@ -2,19 +2,10 @@
 
 import { useState, useEffect } from 'react'
 import cn from 'classnames'
-// import Image from 'next/image'
-// import Link from 'next/link'
 // import { Fade } from "react-awesome-reveal";
 import localFont from 'next/font/local'
-// import { Titillium_Web } from 'next/font/google'
 
 import styles from '../styles.module.css'
-
-// const titillium_web = Titillium_Web({
-//   weight: ['400', '600', '700'],
-//   subsets: ['latin'],
-//   display: 'swap',
-// })
  
 
 const corporateACondPro = localFont({
