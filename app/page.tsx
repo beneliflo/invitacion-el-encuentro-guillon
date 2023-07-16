@@ -6,10 +6,10 @@ export const metadata: Metadata = {
   title: 'Invitacion Aniversario | El Encuentro',
   description: 'Invitacion a nuestro aniversario',
   openGraph: {
-    images: 'https://encuentrocanning.org/invitation/og-image.png',
+    images: 'https://www.elencuentro.org/og-image.png',
   },
   twitter: {
-    images: ['https://encuentrocanning.org/invitation/og-image.png'],
+    images: ['https://www.elencuentro.org/og-image.png'],
   },
 }
 

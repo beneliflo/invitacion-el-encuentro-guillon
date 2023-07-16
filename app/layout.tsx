@@ -12,10 +12,10 @@ export const metadata: Metadata = {
   },
   description: 'El Encuentro',
   openGraph: {
-    images: 'https://encuentrocanning.org/og-image.png',
+    images: 'https://www.elencuentro.org/og-image.png',
   },
   twitter: {
-    images: ['https://encuentrocanning.org/og-image.png'],
+    images: ['https://www.elencuentro.org/og-image.png'],
   },
 }
 
