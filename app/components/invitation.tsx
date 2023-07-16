@@ -44,7 +44,7 @@ export default function Invitation() {
     if (open) return
     timeout = setTimeout(() => {
       setLetter(true)
-    }, 1400)
+    }, 1200)
   };
 
   useEffect(() => {
@@ -63,8 +63,11 @@ export default function Invitation() {
               <div className={cn(styles.front, styles.flap)}></div>
               <div className={cn(styles.front, styles.pocket)}></div>
               <div className={styles.letter}>
-                <div className={styles.paper} />
-              </div>
+                <div className={cn(styles.words, styles.line1)}></div>
+                <div className={cn(styles.words, styles.line2)}></div>
+                <div className={cn(styles.words, styles.line3)}></div>
+                <div className={cn(styles.words, styles.line4)}></div>
+            </div>
             </div>
           </div>
         </div>
