@@ -82,7 +82,7 @@ export default function Invitation() {
           <div className="overflow-hidden bg-white rounded-lg">
             <div className="relative flex flex-col">
               <div className="bg-[url('/bg-top.png')] bg-contain bg-no-repeat bg-top text-center pt-14 sm:pt-[150px] pb-8 sm:pb-20">
-                <p className={cn(sherika.className, 'uppercase font-medium text-xs sm:text-2xl bg-[#C7FD01] p-1 sm:p-[10px] w-max mx-auto tracking-wider sm:-mb-1')}>Celebraremos juntos</p>
+                <p className={cn(sherika.className, 'uppercase font-medium text-xs sm:text-2xl bg-[#C7FD01] p-1 sm:p-[10px] w-max mx-auto tracking-wider sm:-mb-1')}>Celebremos juntos</p>
                 <h2 className={cn(corporateACondPro.className, 'uppercase font-medium text-7xl sm:text-[180px] leading-none text-center')}>32 AÑOS</h2>
                 <p className={cn(sherika.className, 'uppercase font-normal text-base sm:text-[40px] sm:leading-snug tracking-wider -mt-1 sm:-mt-4')}>de la fidelidad de dios</p>
               </div>
