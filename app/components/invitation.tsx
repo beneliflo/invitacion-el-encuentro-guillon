@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from 'react'
 import cn from 'classnames'
-import { Fade } from "react-awesome-reveal";
 import localFont from 'next/font/local'
 
 import styles from '../styles.module.css'
@@ -83,11 +82,9 @@ export default function Invitation() {
           <div className="overflow-hidden bg-white rounded-lg">
             <div className="relative flex flex-col">
               <div className="bg-[url('/bg-top.png')] bg-contain bg-no-repeat bg-top text-center pt-[150px] pb-20">
-                <Fade cascade triggerOnce delay={400}>
-                  <p className={cn(sherika.className, 'uppercase font-medium text-2xl bg-[#C7FD01] p-[10px] w-max mx-auto tracking-wider -mb-2')}>Celebraremos juntos</p>
-                  <h2 className={cn(corporateACondPro.className, 'uppercase font-medium text-[180px] leading-none')}>32 AÑOS</h2>
-                  <p className={cn(sherika.className, 'uppercase font-normal text-[40px] tracking-wider -mt-4')}>de la fidelidad de dios</p>
-                </Fade>
+                <p className={cn(sherika.className, 'uppercase font-medium text-2xl bg-[#C7FD01] p-[10px] w-max mx-auto tracking-wider -mb-2')}>Celebraremos juntos</p>
+                <h2 className={cn(corporateACondPro.className, 'uppercase font-medium text-[180px] leading-none')}>32 AÑOS</h2>
+                <p className={cn(sherika.className, 'uppercase font-normal text-[40px] tracking-wider -mt-4')}>de la fidelidad de dios</p>
               </div>
               <div className="bg-[url('/bg-sky.png')] bg-cover bg-no-repeat text-center font-">
                 <p className={cn(corporateACondPro.className, 'font-extralight text-[105px] leading-snug tracking-tight')}>Pacto•Unidad•Frutos</p>
