@@ -67,14 +67,14 @@ export default function Invitation() {
                 <div className={cn(styles.words, styles.line2)}></div>
                 <div className={cn(styles.words, styles.line3)}></div>
                 <div className={cn(styles.words, styles.line4)}></div>
-            </div>
+              </div>
             </div>
           </div>
         </div>
       }
       {letter &&
-        <div className="max-w-[800px] mx-auto animate-slideFadeUp p-4 pt-72">
-          <div className="overflow-hidden bg-white">
+        <div className="max-w-[800px] mx-auto animate-slideFadeUp p-4 md:pt-72">
+          <div className="overflow-hidden bg-white rounded-lg">
             <div className="relative flex flex-col p-6 sm:p-10">
                 32 AÑOS
                 Celebraremos juntos
