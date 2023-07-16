@@ -3,8 +3,8 @@
 import { useState, useEffect } from 'react'
 import cn from 'classnames'
 // import Image from 'next/image'
-import Link from 'next/link'
-import { Fade } from "react-awesome-reveal";
+// import Link from 'next/link'
+// import { Fade } from "react-awesome-reveal";
 // import localFont from 'next/font/local'
 // import { Titillium_Web } from 'next/font/google'
 
@@ -71,24 +71,16 @@ export default function Invitation() {
         <div className="max-w-[800px] mx-auto animate-slideFadeUp p-4 pt-72">
           <div className="overflow-hidden bg-white">
             <div className="relative flex flex-col p-6 sm:p-10">
-              <Fade triggerOnce direction='left'>
                 32 AÑOS
                 Celebraremos juntos
                 de la fidelidad de dios
-              </Fade>
-              <Fade triggerOnce direction='right'>
-                pacto•Unidad•Frutos 
-              </Fade>
-              <Fade triggerOnce direction='up'>
+                pacto•Unidad•Frutos
                 reservá las fechas
                 Sábado
                 19hs.
                 Domingo
                 18hs.
-              </Fade>
-              <Fade triggerOnce direction='up'>
                 ¡Agendá estos días de fiesta y disfrutemos el regalo de ser iglesia!
-              </Fade>
             </div>
           </div>
         </div>
