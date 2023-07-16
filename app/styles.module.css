@@ -6,7 +6,7 @@
   border-bottom-right-radius: 6px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #dfa23e;
+  background-color: #A9DF00;
   box-shadow: 0 4px 20px rgba(0,0,0,.2);
 }
 .front { 
@@ -19,14 +19,14 @@
   border-left: calc(280px / 2) solid transparent;
   border-right: calc(280px / 2) solid transparent;
   border-bottom: 82px solid transparent; /* a little smaller */
-  border-top: 98px solid #dfa23e; /* a little larger */
+  border-top: 98px solid #A9DF00; /* a little larger */
   transform-origin: top;
   pointer-events: none;
 }
 .pocket {
-  border-left: calc(280px / 2) solid #f1ae42;
-  border-right: calc(280px / 2) solid #f1ae42;
-  border-bottom: calc(180px / 2) solid #e5ab4e;
+  border-left: calc(280px / 2) solid #BDF300;
+  border-right: calc(280px / 2) solid #BDF300;
+  border-bottom: calc(180px / 2) solid #D4F80E;
   border-top: calc(180px / 2) solid transparent;
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
@@ -76,6 +76,11 @@
   opacity: 0;
   transition: transform 1.2s .6s ease, z-index .6s, opacity .6s 1s;
   z-index: 2;
+}
+
+.open .paper {
+  transform: scale(2);
+  transition: transform .6s .6s;
 }
 
 .envelopeWrapper .open {

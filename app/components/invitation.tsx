@@ -62,7 +62,9 @@ export default function Invitation() {
             <div className={cn('sm:scale-150', styles.envelope, open ? styles.open : styles.close)}>
               <div className={cn(styles.front, styles.flap)}></div>
               <div className={cn(styles.front, styles.pocket)}></div>
-              <div className={styles.letter} />
+              <div className={styles.letter}>
+                <div className={styles.paper} />
+              </div>
             </div>
           </div>
         </div>
